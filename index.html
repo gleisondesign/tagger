@@ -1,0 +1,51 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Tagger | Design By: Gleison </title>
+    <meta name="description" content="Where brands find the voices of influencer marketing.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .banner-link {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+        }
+
+        .banner-image {
+            width: 100%;
+            display: none; /* Esconde as imagens por padrão */
+        }
+
+        /* Exibe a imagem para desktop por padrão */
+        .banner-desktop {
+            display: block;
+        }
+
+        /* Em telas menores que 768px, esconde a imagem de desktop e exibe a de mobile */
+        @media (max-width: 768px) {
+            .banner-desktop {
+                display: none;
+            }
+
+            .banner-mobile {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<a >
+    <img src="imgs/lp.png" alt="Banner Web" class="banner-image banner-desktop">
+    <img src="imgs/lp.png" alt="Banner Mobile" class="banner-image banner-mobile">
+</a>
+
+
+</body>
